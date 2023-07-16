@@ -151,6 +151,7 @@
   font-weight: bold;
   display: flex;
   justify-content: flex-end;
+  margin-top: 20px;
 }
 
 .third-section {
@@ -170,4 +171,53 @@
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
 }
+
+
+
+.fourth-section {
+  height: 300px;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+}
+
+/*.action-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 250px;
+  border: black dashed;
+}*/
+
+.action-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  height: 60px;
+  align-items: center;
+}
+
+
+.sentence {
+  font-size: 32px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.chisme {
+  background-color: #101113;
+  color:#F9FAF8;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin-right: 40px;
+}
+
+
+
 
