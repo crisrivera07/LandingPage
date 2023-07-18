@@ -112,7 +112,7 @@
 }
 
 .middle-info-container {
-  height: 60px;
+  height: 200px;
   width: 100%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
@@ -140,12 +140,11 @@
 .pic {
   border: black solid;
   border-radius: 25px;
-  transition: transform 500ms;
 }
 
 .pic:hover {
   cursor: pointer;
-  transform: translateY(-2em);
+  transform: translateY(-1em);
 
 }
 
@@ -195,14 +194,6 @@
   
 }
 
-/*.action-menu-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 1000px;
-  height: 250px;
-  border: black dashed;
-}*/
 
 .action-menu {
   display: flex;
